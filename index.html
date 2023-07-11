@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoticieroConfiable</title>
+
+    <style>
+      body{
+        max-height: 100%;
+      }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+      h2 {color: gray;}
+      h2 a{color: red;}
+      h2 a:hover {color: black;}
+      p a{text-decoration-line: underline; text-decoration-color: black;}
+      p a:hover{text-decoration-line: underline; text-decoration-color: red;}
+
+      ul {
+  display: flex;
+  
+  list-style-type: disc;
+  background-color: gainsboro;
+}
+
+ul li {
+  
+  display: inline-flex;
+  margin-right: 10px; /* margen derecho para separar los elementos */
+  
+}
+
+ul > li{
+  font-weight: bold;
+  
+}
+
+ul li a{
+  
+  text-decoration-line: none;
+  color: black;
+  
+}
+
+input
+{
+  margin: 1%;
+}
+
+
+.entrada_valida{
+  background-color: green;
+}
+
+.entrada_invalida{
+  background-color: red;
+}
+
+#Respuestas
+{
+background-color: rgb(239, 239, 112);
+}
+@media (max-width : 406px) {
+  
+
+ul li {
+  
+  display: none;
+  
+  
+}
+}
+
+    </style>
+</head>
+<body>
+  
+  <ul>
+    <li>EN VIVO</li>
+    <li><a  href="/politica/elecciones-2023-vivo-fenomeno-barrial-expandiendo-mundo-milei-celebro-nota-the-economist_0_fG2ltnIgC5.html">Elecciones 2023, en VIVO: las PASO y todos los candidatos</a></li>
+    <li><a  href="/economia/dolar-hoy-dolar-blue-vivo-cotiza-precio-5-mayo-minuto-minuto_0_Xwnl8TUyP1.html">Dólar blue: a cuánto cotizó este 5 de mayo</a></li>
+    <li><a id ="ItemFInal" href="/mundo/guerra-rusia-ucrania-vivo-alerta-nuevo-ataque-drones-refineria-petroleo-rusia_0_vnj1Ip5Wel.html">Guerra Rusia-Ucrania: alerta por un nuevo ataque de drones en una refinería rusa</a></li>
+  </ul>
+
+
+    <h1>Elon Musk fundó "X.AI", una start-up de inteligencia artificial</h1>
+    <div>
+      <h2>
+        Después de criticar a OpenAI por los avances de ChatGPT, el multimillonario dio a conocer su empresa.
+      </h2>
+    </div>
+    <div>
+      
+      <h2>
+        
+
+        <a href="/internacional/starship-nave-spacex-elon-musk-enviara-espacio-cohete-poderoso-mundo-_0_4jrmf8CKP7.html">Cómo es Starship, la nave de SpaceX que Elon Musk enviará al espacio: "El cohete más poderoso del mundo"</a>
+      </h2>
+    </div>
+<figure>
+  <img src="imagen.jpg">
+  <figcaption><STRong>Elon Musk criticó los avances de OpenAI y ahora fundó su propia empresa de IA. Foto AP</STRong></figcaption>
+</figure>    
+<p><a>Elon Musk</a> registró el mes pasado una empresa de inteligencia artificial (IA) llamada X.AI, con sede en Nevada. De acuerdo con un artículo publicado el viernes por el Financial Times, la nueva empresa competirá con OpenAI, la start-up californiana que desarrolló ChatGPT, un programa de IA capaz de interactuar con humanos y producir todo tipo de textos.</p>
+<p>El éxito de esta interfaz desde su lanzamiento a finales de noviembre ha provocado una competencia en el desarrollo de esta tecnología debido a su gran potencial.</p>
+<p>Según varios medios especializados, <strong>el dueño de Twitter, Tesla y SpaceX ha contratado a Igor Babuschkin</strong> y Manuel Kroiss, ambos procedentes de DeepMind, la rama de IA de Alphabet (matriz de Google), también metida en la disputa por el control de esta tecnología.</p>
+<p>Este movimiento de Musk choca con la postura pública que sostuvo él mismo el mes pasado, cuando firmó un llamamiento para hacer una pausa en el desarrollo de la IA.</p>
+<p>Los cientos de firmantes que apoyaron este texto advirtieron de los riesgos que tiene esta tecnología y se preguntaron: <strong>"¿Es deseable desarrollar mentes no humanas que, en última instancia, podrían superarnos en número e inteligencia y sustituirnos?".</strong></p>
+<p>Musk cofundó OpenAI en 2015, antes de abandonar la empresa en 2018.</p>
+<P>Desde entonces ha criticado a la compañía, incluso en un tuit el pasado diciembre en el que afirmaba que se está entrenando a la IA para ser "woke" (un término para designar a la izquierda estadounidense), es decir, para "mentir".</P>
+<p>En el documento oficial de registro de X.AI, fechado el 9 de marzo de 2023, figura como único director <strong>Elon Musk y un secretario</strong> , Jared Birchall, exbanquero de Morgan Stanley que gestiona la fortuna del multimillonario, según el diario Financial Times.</p>
+<h2>Mientras, OpenAI dice que pausa GPT-5</h2>
+<figure>
+    <img src="imagen2.webp">
+    <figcaption><STRong>Sam Altman, CEO de OpenAI, rival de Musk en la actualidad. Foto Archivo</STRong></figcaption>
+  </figure>  
+  <p>Sam Altman, director ejecutivo y cofundador de OpenAI, confirmó que su empresa no desarrollará "por algún tiempo" GPT-5, el presunto sucesor de su chatbot con inteligencia artificial (IA) GPT-4, después de que un grupo de empresarios del sector tecnológico -entre ellos Elon Musk- <u>Solicitaron en una carta de tono apocalíptico que se suspendan durante seis meses los sistemas de IA.</u></p>
+
+  <!-- Formulario -->
+  <h2>Suscribirse</h2>
+  <form id="FormularioSuscripcion" onsubmit="ValidarFormulario(this);">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" value="Roberto Perez" onblur="ValidarNombre(this)"><br>
+
+        <label for="correo">Mail:</label>
+        <input type="email" id="correo" value="jaimitio@gmail.com" onblur="ValidarMail(this)"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" value="pinocho123" onblur="ValidarPassword(this)"><br>
+
+                <label for="edad">Edad:</label>
+                <input type="numer" id="edad" value="37" onblur="ValidarEdad(this)"><br>
+
+                    <label for="telefono">Telefono:</label>
+                    <input type="numer" id="telefono" value="19473274782929" onblur="ValidarTelefono(this)"><br>
+
+                        <label for="direccion">Direccion:</label>
+                        <input type="text" id="direccion" value="Rioja 928" onblur="ValidarDireccion(this)"><br>
+
+                            <label for="codigo_postal">Codigo Postal:</label>
+                            <input type="text" id="codigo_postal" value="230" onblur="ValidarCodigoPostal(this)"><br>
+
+                                <label for="dni">DNI:</label>
+                                <input type="numer" id="dni" value="12345678" onblur="ValidarDni(this)"><br>
+
+                                    <button type="submit">Enviar</button>
+                                    <button type="reset">Restablecer</button>
+  </form>
+
+  <div id = "Respuestas">
+    
+  </div>
+
+
+  <h2>Otras noticias populares</h2>
+  <a href="https://www.clarin.com/espectaculos/tv/rating-picada-visto-sabado-llego-6-puntos_0_Ll4phHprPS.html"><strong>Rating en picada: lo más visto del sábado no llegó ni a los 6 puntos</strong></a><br>
+  <a href="https://www.clarin.com/espectaculos/tv/sabado-rating-visto-llego-7-puntos_0_wtXxNePh1A.html"><strong>En un sábado de muy bajo rating, lo más visto no llegó ni a 7 puntos</strong></a>
+  <script src="Codigo.js"></script>
+</body>
+</html>
